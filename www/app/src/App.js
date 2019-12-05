@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css';
 import './main.css';
+import './style.css';
 
 const App = () => {
     return (
-        <div className="App"> 
+        <section id="container"> 
             <h1>Forthwind's stuff</h1>
             <img src="400x400Forthwind.jpg" alt="Forthwind" height="320px" width="320px" />
             <div id="links">
@@ -12,7 +12,7 @@ const App = () => {
                 &bull;
                 <a href="https://github.com/klforthwind">Github</a>
             </div>
-        </div>
+        </section>
     );
 }
 
