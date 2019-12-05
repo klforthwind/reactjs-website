@@ -10,7 +10,7 @@ body, h1 {
     color: #8AD1FD;
 }
 
-#container {
+div#root {
     padding-top: 10%;
 }
 
@@ -23,7 +23,7 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    #container{
+    div#root{
         padding: 40px;
     }
 }

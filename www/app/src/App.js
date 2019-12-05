@@ -6,11 +6,11 @@ import './style.css';
 
 const App = () => {
     return (
-        <section id="container"> 
+        <div className="App"> 
             <h1>Forthwind's stuff</h1>
             <img src={logo} alt="Forthwind" height="320px" width="320px" />
             <Links />
-        </section>
+        </div>
     );
 }
 

@@ -19,7 +19,7 @@ a:hover {
     color: #cccccc;
 }
 
-section {
+div#root {
     background: #222;
     margin: auto;
     text-align: center;
@@ -31,4 +31,8 @@ section {
 a {
     font-size: 19px;
     text-decoration: none;
+}
+
+bull {
+    margin: 0 7px 0 7px;    
 }
