@@ -1,15 +1,20 @@
+import { Switch, Route } from "react-router-dom";
+import BlogHome from './BlogHome';
+import BlogPost from './BlogPost';
 import React from 'react';
-import Links from './Links';
-import logo from './400x400Forthwind.jpg'
-import './main.css';
+import Home from './Home';
 import './style.css';
+import './main.css';
 
 const App = () => {
     return (
         <div className="App"> 
-            <h1>Forthwind's stuff</h1>
-            <img src={logo} alt="Forthwind" height="320px" width="320px" />
-            <Links />
+
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/blog/' component={BlogHome}/>
+          <Route exact path="/blog/:post" component={BlogPost}/>
+        </Switch>
         </div>
     );
 }
