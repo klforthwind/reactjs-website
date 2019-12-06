@@ -1,6 +1,7 @@
 import logo from './400x400Forthwind.jpg';
 import Links from './Links';
 import React from 'react';
+import './style.css';
 
 const Home = () => {
     return (

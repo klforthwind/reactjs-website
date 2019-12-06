@@ -3,8 +3,6 @@ import BlogHome from './BlogHome';
 import BlogPost from './BlogPost';
 import React from 'react';
 import Home from './Home';
-import './style.css';
-import './main.css';
 
 const App = () => {
     return (

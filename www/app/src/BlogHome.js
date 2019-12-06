@@ -8,11 +8,11 @@ const BlogHome = () => {
         <div>
             <div id="picture">
 				<a href="/blog/"><img src={logo} alt="Forthwind" height="128px" width="128px" /></a>
-				<h1>Forthwind's blog</h1>
+				<h1>Forthwind's Blog</h1>
 				<h2>Uhhh... I tried.</h2>
 			</div>
 			{/* Place to add blog articles below here */}
-			<div id="root"><div dangerouslySetInnerHTML={{__html:db.getPostList()}} /></div>
+			<div dangerouslySetInnerHTML={{__html:db.getPostList()}} />
             <Info />
         </div>);
 }
